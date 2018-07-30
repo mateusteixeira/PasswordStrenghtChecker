@@ -1,0 +1,4 @@
+br\com\passwordstrenghtchecker\dto\PasswordDTO.class
+br\com\passwordstrenghtchecker\resource\PasswordResource.class
+br\com\passwordstrenghtchecker\service\PasswordService.class
+br\com\passwordstrenghtchecker\entity\Password.class
