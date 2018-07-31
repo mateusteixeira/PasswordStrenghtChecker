@@ -23,8 +23,9 @@ public class PasswordResource {
 		
 		Password passwordChecked = new PasswordService().check(password);
 		
-		jsonObject.put("password", passwordChecked.getPassword());
+		jsonObject.put("password", passwordChecked.getPasswordDescription());
 		jsonObject.put("passwordStrength", passwordChecked.getPasswordStrength());
+		jsonObject.put("complexityDescription", passwordChecked.getComplexityDescription());
 		
 		return Response.status(200).entity(jsonObject.toString()).build();
 	}

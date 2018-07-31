@@ -45,12 +45,17 @@
   background-color: orange;
   margin-left:50px;
 }
-.blue {
+.yellow {
   width: 225px;
+  background-color: yellow;
+  margin-left:50px;
+}
+.blue {
+  width: 300px;
   background-color: blue;
 }
 .green {
-  width: 300px;
+  width: 375px;
   background-color: green;
   margin-left:-20px;
 }
